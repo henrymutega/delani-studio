@@ -1,16 +1,13 @@
-.container-fluid
+#himg
 {
   position: relative;
-}
-.container-fluid img
-{
   width: 100%;
   height: 100%;
 }
 .log
 {
   position: absolute;
-  top: 30%;
+  top: 35%;
   color: white;
 }
 #logo
@@ -38,5 +35,44 @@ margin-left: 600px;
   width: 3%;
   height: 3%;
   margin-top: 160px;
+  margin-left: 600px;
+}
+.about1
+{
+  margin-top: 50px;
+  text-align: center;
+}
+.service
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#ser
+{
+  position: absolute;
+  top: 25%;
+  color: white;
+  text-align: center;
+  margin-left: 100px;
+}
+.row
+{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 10px;
+}
+h5
+{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#por
+{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 200px;
   margin-left: 600px;
 }
