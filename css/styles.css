@@ -78,10 +78,25 @@ h5
 .contact
 {
   position: absolute;
-  top: 350%;
+  top: 340%;
   left: 30%;
   color: white;
-  background-color: ;
+}
+#id_number1
+{
+  position: relative;
+  color: #fff;
+  width: 58%;
+}
+#id_number2
+{
+  position: relative;
+  color: #fff;
+  width: 58%;
+}
+.button:focus, .button:hover {
+    background: #1583cc;
+    color: #fff;
 }
 .copyright
 {
