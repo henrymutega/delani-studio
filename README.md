@@ -20,12 +20,12 @@ The site contains information which can be viewed anywhere at your own comfort a
 
 ## Behavior Driven Development.
 
-| Behavior: Our program outputs | Input: Example | Output: Example        |
+| Input | Behavior | Output        |
 | ---------------------- | ----------------------------- | ---------------------- |
-|                        |                               |                         |        
-|                        |                               |                         |
-|                        |                               |                         |
-|                        |                               |                         |
+| Visit delani studio site | The home page is display| Welcome to DELANI STUDIO |        
+| Click the What We Do Icons | The button is clickable| Every Icon display information |
+|Hover the portfolio images | The images Hovers | Name of the project is displayed |
+|Input your name, email and comment and submit | Contact Us | A pop messages appears |
 
 ## Support and contact details
 Any difficulties in accessing the code or in it's operations?
