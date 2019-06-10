@@ -78,21 +78,9 @@ h5
 .contact
 {
   position: absolute;
-  top: 340%;
+  top: 350%;
   left: 30%;
   color: white;
-}
-#id_number1
-{
-  position: relative;
-  color: #fff;
-  width: 58%;
-}
-#id_number2
-{
-  position: relative;
-  color: #fff;
-  width: 58%;
 }
 .button:focus, .button:hover {
     background: #1583cc;
@@ -120,12 +108,15 @@ p2
 {
   width: 600px;
   color: white;
+  height: 40vh;
 }
-.Project > p
+.me
  {
-  background-color: grey;
-  color: white;
+  color: blue;
   position: absolute;
-  width: 90%;
-  height: 100%;
+  font-size: 20px;
+}
+#jam:hover
+{
+  position: relative;
 }
