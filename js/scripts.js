@@ -1,3 +1,4 @@
+// Business (or back-end) logic:
 $(document).ready(function() {
   $("#designs").hide();
   $(".design").click(function() {
@@ -28,13 +29,17 @@ $(document).ready(function() {
     $(".product").toggle();
     $("#products").hide();
   });
-
-$(".project").hide();
-$(".project").hover(function(){
-  $(this).find(".project").toggle();
-});
 });
 
+// portfolio part
+$(document).ready(function(){
+  $(".me").hide();
+  $("#jam").hover(function () {
+   $(this).find(".me").toggle();
+ });
+});
+
+//  user interface (or front-end) logic:
 $(document).ready(function(){
   $("#submit").click(function(){
     var nam = $("#name").val();
