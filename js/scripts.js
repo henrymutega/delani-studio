@@ -28,4 +28,26 @@ $(document).ready(function() {
     $(".product").toggle();
     $("#products").hide();
   });
+
+$(".project").hide();
+$(".project").hover(function(){
+  $(this).find(".project").toggle();
+});
+});
+
+$(document).ready(function(){
+  $("#submit").click(function(){
+    var nam = $("#name").val();
+    var email = $("#mail").val();
+    if(nam== "" ){
+      alert("Enter your name please.");
+      return;
+    }else if (email== "") {
+      alert("Enter your email please.");
+      return;
+    }else {
+      alert(nam + " We have received your information. Thank you for reaching out to us.");
+      reset;
+    }
+  });
 });
