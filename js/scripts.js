@@ -80,7 +80,7 @@ $(document).ready(function(){
       return;
     }else {
       alert(nam + " We have received your information. Thank you for reaching out to us.");
-      reset;
+      event.preventDefault();
     }
   });
 });
