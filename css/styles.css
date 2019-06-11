@@ -70,17 +70,22 @@ h5
 }
 #contact
 {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100% !important;
   margin-top: 30px;
+  padding-top: 5%;
+  text-align: center;
 }
-.contact
+#contact p
 {
-  position: absolute;
-  top: 350%;
-  left: 30%;
   color: white;
+  font-size: 20px;
+}
+#name,#mail, #comments
+{
+  background-color: transparent;
 }
 .button:focus, .button:hover {
     background: #1583cc;
@@ -109,6 +114,10 @@ p2
   width: 600px;
   color: white;
   height: 40vh;
+}
+.portfolio
+{
+  margin-top: 100px;
 }
 .jak, .juk, .jos, .jik, .jim, .jam, .jok, .jek
  {
