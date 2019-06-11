@@ -1,4 +1,4 @@
-#DELANI STUDIO
+# DELANI STUDIO
 #### Brilliant application showing the designs, products and developments of Delani studio.
 #### By **HENRY MUTEGA, The Developer**
 ## Description
