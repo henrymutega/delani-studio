@@ -110,13 +110,19 @@ p2
   color: white;
   height: 40vh;
 }
-.me
+.jak, .juk, .jos, .jik, .jim, .jam, .jok, .jek
  {
-  color: blue;
+  color: white;
   position: absolute;
   font-size: 20px;
+  padding: 20px 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  bottom: 30%;
+  margin-left: 10px;
+  margin-right: 50px;
 }
-#jam:hover
+#jam, #jak, #juk, #jos, #jik, #jim, #jok, #jek
 {
   position: relative;
 }
